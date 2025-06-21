@@ -51,9 +51,14 @@ const LogoSection = () => {
           
           {/* Call to Action */}
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
-            <button className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-orange-500/30">
+            <a 
+              href="https://x.com/i/communities/1935188067452932308" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-orange-500/30 inline-block"
+            >
               Join the Revolution
-            </button>
+            </a>
             <button className="border-2 border-orange-500 text-orange-400 hover:bg-orange-500 hover:text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105">
               Learn More
             </button>
