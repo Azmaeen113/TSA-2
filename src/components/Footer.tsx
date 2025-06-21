@@ -67,7 +67,7 @@ const Footer = () => {
         <div className="bg-gray-900/50 rounded-lg p-6 mb-8 border border-orange-500/20">
           <h3 className="text-lg font-bold text-orange-400 mb-3">Contract Address</h3>
           <code className="text-yellow-400 font-mono text-sm break-all">
-            ArVZ1VM8J9k4fDbkuDt6VAacDesbcztPSqrWGuP7pump
+            AGtp8fdAE1BzNa8753rBxe88Vz3aYAL2P8pVcEoapump
           </code>
           <p className="text-gray-400 text-xs mt-2">
             Always verify the contract address before trading!
