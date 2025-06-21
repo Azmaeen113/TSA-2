@@ -6,7 +6,6 @@ import BankingRoast from './components/BankingRoast';
 import WhyTSA from './components/WhyTSA';
 import Tokenomics from './components/Tokenomics';
 import HowToBuy from './components/HowToBuy';
-import ContractAddress from './components/ContractAddress';
 import Community from './components/Community';
 import Roadmap from './components/Roadmap';
 import Footer from './components/Footer';
@@ -21,7 +20,6 @@ function App() {
       <WhyTSA />
       <Tokenomics />
       <HowToBuy />
-      <ContractAddress />
       <Community />
       <Roadmap />
       <Footer />

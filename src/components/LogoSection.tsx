@@ -1,6 +1,11 @@
 import React from 'react';
 
 const LogoSection = () => {
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText('AGtp8fdAE1BzNa8753rBxe88Vz3aYAL2P8pVcEoapump');
+    // You could add a toast notification here if you want
+  };
+
   return (
     <section className="pt-24 pb-16 bg-gradient-to-b from-black to-gray-900">
       <div className="container mx-auto px-4">
@@ -27,6 +32,23 @@ const LogoSection = () => {
             </p>
           </div>
 
+          {/* Contract Address */}
+          <div className="mt-8 p-4 bg-gray-800/50 rounded-xl border border-orange-500/30">
+            <p className="text-sm text-gray-400 mb-2">Contract Address (CA)</p>
+            <div className="flex items-center justify-center space-x-3">
+              <code className="text-orange-400 font-mono text-sm md:text-base break-all">
+                AGtp8fdAE1BzNa8753rBxe88Vz3aYAL2P8pVcEoapump
+              </code>
+              <button 
+                onClick={copyToClipboard}
+                className="text-orange-400 hover:text-orange-300 transition-colors"
+                title="Copy to clipboard"
+              >
+                📋
+              </button>
+            </div>
+          </div>
+          
           {/* Call to Action */}
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <a 
