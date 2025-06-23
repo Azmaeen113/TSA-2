@@ -3,7 +3,7 @@ import { Wallet, ArrowRight, Copy, ExternalLink, CheckCircle } from 'lucide-reac
 
 const HowToBuy = () => {
   const [copiedAddress, setCopiedAddress] = useState(false);
-  const contractAddress = "TSA1234567890ABCDEF1234567890ABCDEF12345678";
+  const contractAddress = "A7p24frdJyzNA8CUSicfDY38t7VM6P7JrWte96zepump";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(contractAddress);
