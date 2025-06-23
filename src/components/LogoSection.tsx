@@ -2,7 +2,7 @@ import React from 'react';
 
 const LogoSection = () => {
   const copyToClipboard = () => {
-    navigator.clipboard.writeText('AGtp8fdAE1BzNa8753rBxe88Vz3aYAL2P8pVcEoapump');
+    navigator.clipboard.writeText('A7p24frdJyzNA8CUSicfDY38t7VM6P7JrWte96zepump');
     // You could add a toast notification here if you want
   };
 
@@ -37,7 +37,7 @@ const LogoSection = () => {
             <p className="text-sm text-gray-400 mb-2">Contract Address (CA)</p>
             <div className="flex items-center justify-center space-x-3">
               <code className="text-orange-400 font-mono text-sm md:text-base break-all">
-                AGtp8fdAE1BzNa8753rBxe88Vz3aYAL2P8pVcEoapump
+                A7p24frdJyzNA8CUSicfDY38t7VM6P7JrWte96zepump
               </code>
               <button 
                 onClick={copyToClipboard}

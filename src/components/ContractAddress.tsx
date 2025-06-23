@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Copy, Check } from 'lucide-react';
 
 const ContractAddress = () => {
-  const ca = 'AGtp8fdAE1BzNa8753rBxe88Vz3aYAL2P8pVcEoapump';
+  const ca = 'A7p24frdJyzNA8CUSicfDY38t7VM6P7JrWte96zepump';
   const [copied, setCopied] = useState(false);
 
   const copyToClipboard = () => {
